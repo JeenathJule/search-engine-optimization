@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>College Symposium 2025</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      background: linear-gradient(to right, #E3FDF5, #FFE6FA);
+      margin: 0;
+      padding: 0;
+      color: #333;
+    }
+    header {
+      background: #6C5B7B;
+      color: white;
+      padding: 50px 20px;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 4rem;
+      margin: 0;
+    }
+    header p {
+      font-size: 1.5rem;
+      margin-top: 10px;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      background: #355C7D;
+      padding: 15px;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-size: 1.2rem;
+      padding: 10px 20px;
+      transition: background 0.3s;
+    }
+    nav a:hover {
+      background: rgba(255, 255, 255, 0.2);
+      border-radius: 5px;
+    }
+    section {
+      padding: 60px 20px;
+      text-align: center;
+    }
+    .home {
+      background: linear-gradient(to right, #FFDEE9, #B5FFFC);
+      color: #2C3E50;
+      padding: 100px 20px;
+    }
+    .home h2 {
+      font-size: 3rem;
+      margin-bottom: 20px;
+    }
+    .home p {
+      font-size: 1.3rem;
+    }
+    .button {
+      padding: 15px 30px;
+      background: #C06C84;
+      color: white;
+      font-size: 1.2rem;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background 0.3s;
+      margin-top: 20px;
+    }
+    .button:hover {
+      background: #6C5B7B;
+    }
+    .schedule, .speakers, .contact {
+      background: #F8B195;
+      border-radius: 10px;
+      margin: 20px auto;
+      padding: 20px;
+      max-width: 800px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    .form-container {
+      max-width: 400px;
+      margin: 20px auto;
+      padding: 20px;
+      background: #FFF;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      border-radius: 10px;
+    }
+    .form-container h2 {
+      margin-bottom: 20px;
+    }
+    .form-container input {
+      width: 100%;
+      padding: 10px;
+      margin: 10px 0;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    .form-container button {
+      width: 100%;
+      padding: 10px;
+      background: #6C5B7B;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      font-size: 1rem;
+      cursor: pointer;
+    }
+    .form-container button:hover {
+      background: #C06C84;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>College Symposium 2025</h1>
+    <p>Innovate. Inspire. Impact.</p>
+  </header>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#schedule">Schedule</a>
+    <a href="#speakers">Speakers</a>
+    <a href="#registration">Registration</a>
+    <a href="#login">Login</a>
+    <a href="#signup">Signup</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  <section id="home" class="home">
+    <h2>Welcome to Symposium 2025</h2>
+    <p>Join us for a day of knowledge-sharing, networking, and inspiration. Discover the latest innovations and connect with experts in various fields.</p>
+    <button class="button" onclick="document.getElementById('registration').scrollIntoView({behavior: 'smooth'})">Register Now</button>
+  </section>
+  <section id="about">
+    <h2>About the Symposium</h2>
+    <p>The College Symposium 2025 brings together students, industry leaders, and educators to explore the latest innovations and ideas. Join us for a day of learning and inspiration.</p>
+  </section>
+  <section id="schedule" class="schedule">
+    <h2>Event Schedule</h2>
+    <p><strong>10:00 AM:</strong> Opening Ceremony</p>
+    <p><strong>11:00 AM:</strong> Keynote Speech by Dr. Jane Doe</p>
+    <p><strong>1:00 PM:</strong> Workshop Sessions</p>
+    <p><strong>3:00 PM:</strong> Panel Discussion</p>
+    <p><strong>5:00 PM:</strong> Closing Remarks</p>
+  </section>
+  <section id="speakers" class="speakers">
+    <h2>Keynote Speakers</h2>
+    <p>Dr. Jane Doe - Expert in Artificial Intelligence</p>
+    <p>Mr. John Smith - Renowned Entrepreneur</p>
+    <p>Ms. Emily Brown - Cybersecurity Specialist</p>
+  </section>
+  <section id="registration">
+    <h2>Register Now</h2>
+    <p>Don't miss out on this incredible event. Click the button below to register.</p>
+    <button class="button">Register</button>
+  </section>
+  <section id="login" class="form-container">
+    <h2>Login</h2>
+    <form>
+      <input type="text" placeholder="Username" required>
+      <input type="password" placeholder="Password" required>
+      <button type="submit">Login</button>
+    </form>
+  </section>
+  <section id="signup" class="form-container">
+    <h2>Signup</h2>
+    <form>
+      <input type="text" placeholder="Username" required>
+      <input type="email" placeholder="Email" required>
+      <input type="password" placeholder="Password" required>
+      <button type="submit">Signup</button>
+    </form>
+  </section>
+  <section id="contact" class="contact">
+    <h2>Contact Us</h2>
+    <p>Email: symposium2025@college.edu</p>
+    <p>Phone: (123) 456-7890</p>
+    <p>Location: Srl Auditorium, PSNA College of Engineering and Technology</p>
+  </section>
+</body>
+</html>
